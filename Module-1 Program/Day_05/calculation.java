@@ -9,7 +9,11 @@ public class calculation{
       sub.calculate(10,20);
       mul.calculate(10,20);
       div.calculate(10,20);
-      
+
+       evenOrOdd isEven = (int a) -> a%2==0;
+        System.out.println("is even" + isEven.evenOrOdd(10));
+
+
     }
 
 
