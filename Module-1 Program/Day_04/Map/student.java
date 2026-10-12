@@ -25,6 +25,7 @@ public class student implements Comparable<student> {
 
 
 
+
     public String toString() {
         return "Student {Name " + name + ", Rno" + rno + ", Age" + age + ", Marks" + marks + "}";
     }
@@ -43,7 +44,7 @@ public class student implements Comparable<student> {
         }
         // sorting
         students.sort(Comparator.comparingInt(s -> s.age));
-        System.out.println("\n--- After Sorting By Age ---");
+        System.out.println("\n--> After Sorting By Age");
         for (student s : students) {
             System.out.println(s);
         }
