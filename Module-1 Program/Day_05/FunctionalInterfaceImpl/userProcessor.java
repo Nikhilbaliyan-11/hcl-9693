@@ -22,9 +22,8 @@ public class userProcessor {
 
         final Consumer<user> sendWelcomeEmail = user ->
                 System.out.println("NOTIFICATION: Sending welcome email to " + user.getEmail());
-         void processUser(user user){
-          Predicate<user> isValidUser = isValidEmail.and(isValidAge);
+
 
         }
     }
-}
+
