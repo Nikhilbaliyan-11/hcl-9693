@@ -1,6 +1,6 @@
 package com.codewithnikhil;
 
-public class employee {
+public class employe {
     private String firstName;
     private String lastName;
     private String email;
